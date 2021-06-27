@@ -19,5 +19,5 @@ Would you rather App for play question games and users vots
 
 ## License
 
-MyReads App is an open source project by [EVALUATE NEWS ARTICLE][mit](https://opensource.org/licenses/MIT).
-MyReads App reserves the right to change the license of future releases.
+Would you rather App is an open source project by [EVALUATE NEWS ARTICLE][mit](https://opensource.org/licenses/MIT).
+Would you rather App reserves the right to change the license of future releases.

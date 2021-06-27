@@ -9,7 +9,7 @@ import { handleInitialData } from '../actions/shared';
 import UserLogin from './UserLogin';
 import Home from './Home';
 import Questions from './Questions';
-import Userboard from './Userboard';
+import Leaderboard from './Leaderboard';
 import AddQuestion from './AddQuestion';
 
 
@@ -38,7 +38,7 @@ class App extends Component {
                   <Route exact path='/' component={UserLogin} />
                   <Route exact path='/home' component={Home} />
                   <Route path='/questions/:id' component={Questions} />
-                  <Route exact path='/Userboard' component={Userboard} />
+                  <Route exact path='/Leaderboard' component={Leaderboard} />
                   <Route exact path='/add' component={AddQuestion} />
                   <Route component={NoMatch} />
                 </Switch>

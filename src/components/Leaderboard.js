@@ -28,7 +28,7 @@ const LeaderTableCell = withStyles(theme => ({
   }
 }))(TableCell);
 
-class Userboard extends Component {
+class Leaderboard extends Component {
 
   render() {
 
@@ -85,4 +85,4 @@ const mapStateToProps = ({ users, authedUser }) => ({
     Userboard : prepareLeaderBoard(users)
 });
 
-export default connect(mapStateToProps)(Userboard);
+export default connect(mapStateToProps)(Leaderboard);
